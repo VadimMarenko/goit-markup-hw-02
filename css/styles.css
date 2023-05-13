@@ -1,0 +1,75 @@
+:root {
+    --primary-bg-color: #E5E5E5;
+    --secondary-bg-color: #FFFFFF;
+    --color-bg-team: #F4F4FD;
+    --color-main-text: #434455;
+    --color-secondary-text: #2E2F42;
+    --accent-pressed-state: #404BBF;
+    --accent: #4D5AE5;
+}
+
+body {
+    background-color: var(--primary-bg-color);
+    color: #434455;
+}
+
+.list {
+    list-style: none;
+}
+
+.page-header {
+    background-color: var(--secondary-bg-color);
+}
+
+.logo {
+    color: var(--color-secondary-text);
+}
+
+.site-nav .link {
+    color: var(--color-secondary-text);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-pressed-state);
+}
+
+.site-adr {
+    color: var(--color-main-text);
+}
+
+.hero-section {
+    background-color: var(--color-secondary-text);
+}
+
+.hero-title {
+    color: var(--secondary-bg-color);
+}
+
+.section-title {
+    color: var(--color-secondary-text);
+}
+
+.features {
+    background-color: var(--primary-bg-color);
+}
+
+.team {
+    background-color: var(--color-bg-team);
+}
+
+.button {
+    color: var(--accent);
+    background-color: var(--color-bg-team);
+}
+
+.button:hover,
+.button:focus {
+    color: var(--secondary-bg-color);
+    background-color: var(--accent-pressed-state);
+}
+
+.button.hero {
+    background-color: var(--accent);
+    color: var(--secondary-bg-color);
+}
