@@ -36,6 +36,10 @@ body {
     text-transform: uppercase;
 }
 
+.logo-blue {
+    color: var(--accent);
+}
+
 .site-nav .link {
     color: var(--color-secondary-text);
     font-weight: 500;    
