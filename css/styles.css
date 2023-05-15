@@ -53,7 +53,7 @@ body {
 }
 
 .site-address .link {
-    color: var(--color-primary-text);
+    color: var(--color-main-text);
     font-style: normal;
 }
 
@@ -75,7 +75,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02em;    
 }
 
 .features .section-title {   
@@ -133,6 +133,11 @@ body {
     line-height: 1.11;    
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
+}
+
+.team-list {
+    background-color: var(--primary-bg-color);
 }
 
 .page-footer {
