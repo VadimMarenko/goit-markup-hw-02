@@ -52,7 +52,7 @@ body {
     color: var(--accent-pressed-state);
 }
 
-.site-address .link {
+.site-address {
     color: var(--color-main-text);
     font-style: normal;
 }
@@ -78,6 +78,9 @@ body {
     letter-spacing: 0.02em;    
 }
 
+.section-list {
+    background-color: var(--primary-bg-color);
+
 .features .section-title {   
     font-size: 20px;
     font-weight: 500;
@@ -95,6 +98,10 @@ body {
 
 .team {
     background-color: var(--color-bg-team);
+}
+
+.team-list {
+    background-color: var(--primary-bg-color);
 }
 
 .button {
@@ -134,10 +141,6 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
-}
-
-.team-list {
-    background-color: var(--primary-bg-color);
 }
 
 .page-footer {
