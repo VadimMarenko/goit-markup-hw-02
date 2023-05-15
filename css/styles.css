@@ -11,6 +11,10 @@
 body {
     background-color: var(--primary-bg-color);
     color: #434455;
+    font-family: 'Roboto', sans-serif;  
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;    
 }
 
 .list {
@@ -23,10 +27,20 @@ body {
 
 .logo {
     color: var(--color-secondary-text);
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-transform: uppercase;
 }
 
 .site-nav .link {
     color: var(--color-secondary-text);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;    
 }
 
 .site-nav .link:hover,
@@ -44,10 +58,24 @@ body {
 
 .hero-title {
     color: var(--secondary-bg-color);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .section-title {
     color: var(--color-secondary-text);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.features .section-title {   
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
 }
 
 .features {
@@ -61,6 +89,9 @@ body {
 .button {
     color: var(--accent);
     background-color: var(--color-bg-team);
+    font-family: inherit;
+    font-weight: 500;
+    cursor: pointer;
 }
 
 .button:hover,
@@ -69,7 +100,25 @@ body {
     background-color: var(--accent-pressed-state);
 }
 
-.button.hero {
-    background-color: var(--accent);
+.button.hero { 
     color: var(--secondary-bg-color);
+    background-color: var(--accent);
+    font-family: inherit;
+    font-weight: 500;
+}
+
+.button.hero:hover,
+.button.hero:focus {
+    color: var(--secondary-bg-color);
+    background-color: var(--accent-pressed-state);
+}
+
+.section-title.doing,
+.section-title.team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
