@@ -1,9 +1,9 @@
 :root {
-    --primary-bg-color: #E5E5E5;
-    --secondary-bg-color: #FFFFFF;
+    --primary-bg-color: #FFFFFF;
+    --secondary-bg-color: #E5E5E5;
     --color-bg-team: #F4F4FD;
     --color-main-text: #434455;
-    --color-secondary-text: #2E2F42;
+    --color-primary-text: #2E2F42;
     --accent-pressed-state: #404BBF;
     --accent: #4D5AE5;
 }
@@ -21,12 +21,8 @@ body {
     list-style: none;
 }
 
-.page-header {
-    background-color: var(--secondary-bg-color);
-}
-
 .logo {
-    color: var(--color-secondary-text);
+    color: var(--accent);    
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 800;
@@ -36,12 +32,12 @@ body {
     text-transform: uppercase;
 }
 
-.logo-blue {
-    color: var(--accent);
+.logo-header {
+    color: var(--color-primary-text);
 }
 
 .site-nav .link {
-    color: var(--color-secondary-text);
+    color: var(--color-primary-text);
     font-weight: 500;    
 }
 
@@ -53,15 +49,15 @@ body {
 }
 
 .site-adr .link {
-    color: var(--color-secondary-text);
+    color: var(--color-primary-text);
 }
 
 .hero-section {
-    background-color: var(--color-secondary-text);
+    background-color: var(--color-primary-text);
 }
 
 .hero-title {
-    color: var(--secondary-bg-color);
+    color: var(--primary-bg-color);
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -70,7 +66,7 @@ body {
 }
 
 .section-title {
-    color: var(--color-secondary-text);
+    color: var(--color-primary-text);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -82,8 +78,9 @@ body {
     line-height: 1.2;
 }
 
-.features {
-    background-color: var(--primary-bg-color);
+.page-main,
+.portfolio-main {
+    background-color: var(--secondary-bg-color);
 }
 
 .team {
@@ -100,12 +97,12 @@ body {
 
 .button:hover,
 .button:focus {
-    color: var(--secondary-bg-color);
+    color: var(--primary-bg-color);
     background-color: var(--accent-pressed-state);
 }
 
 .button.hero { 
-    color: var(--secondary-bg-color);
+    color: var(--primary-bg-color);
     background-color: var(--accent);
     font-family: inherit;
     font-weight: 500;
@@ -113,7 +110,7 @@ body {
 
 .button.hero:hover,
 .button.hero:focus {
-    color: var(--secondary-bg-color);
+    color: var(--primary-bg-color);
     background-color: var(--accent-pressed-state);
 }
 
@@ -124,4 +121,13 @@ body {
     line-height: 1.11;    
     letter-spacing: 0.02em;
     text-transform: capitalize;
+}
+
+.page-footer {
+    color: var(--color-bg-team);
+    background: var(--color-primary-text);
+}
+
+.logo-footer {
+    color: var(--color-bg-team);
 }
