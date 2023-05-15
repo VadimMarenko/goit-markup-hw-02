@@ -38,18 +38,18 @@ body {
 
 .site-nav .link {
     color: var(--color-secondary-text);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;    
+    font-weight: 500;    
 }
 
 .site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:focus,
+.site-adr .link:hover,
+.site-adr .link:focus {
     color: var(--accent-pressed-state);
 }
 
-.site-adr {
-    color: var(--color-main-text);
+.site-adr .link {
+    color: var(--color-secondary-text);
 }
 
 .hero-section {
@@ -117,8 +117,7 @@ body {
 .section-title.team {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
+    line-height: 1.11;    
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
