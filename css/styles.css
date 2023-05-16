@@ -45,15 +45,15 @@ body {
     font-weight: 500;    
 }
 
-.site-address .contacts {
+.site-address .link {
     color: var(--color-main-text);
     font-style: normal;
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus,
-.site-address .contacts:hover,
-.site-address .contacts:focus {
+.site-address .link:hover,
+.site-address .link:focus {
     color: var(--accent-pressed-state);
 }
 
