@@ -80,6 +80,7 @@ body {
 
 .section-list {
     background-color: var(--primary-bg-color);
+}
 
 .features .section-title {   
     font-size: 20px;
@@ -92,7 +93,7 @@ body {
 }
 
 .page-main,
-.portfolio {
+.portfolio-section {
     background-color: var(--secondary-bg-color);
 }
 
