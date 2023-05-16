@@ -47,8 +47,8 @@ body {
 
 .site-nav .link:hover,
 .site-nav .link:focus,
-.contacts.link.link:hover,
-.contacts.link.link:focus {
+.contacts.link:hover,
+.contacts.link:focus {
     color: var(--accent-pressed-state);
 }
 
