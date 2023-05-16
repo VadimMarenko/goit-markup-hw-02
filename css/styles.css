@@ -45,21 +45,17 @@ body {
     font-weight: 500;    
 }
 
-.contacts.link {
+.site-address .contacts {
     color: var(--color-main-text);
+    font-style: normal;
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus,
-.contacts.link:hover,
-.contacts.link:focus {
+.site-address .contacts:hover,
+.site-address .contacts:focus {
     color: var(--accent-pressed-state);
 }
-
-.site-address {
-    font-style: normal;
-}
-
 
 .hero-section {
     background-color: var(--color-primary-text);
