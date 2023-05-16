@@ -45,9 +45,12 @@ body {
     font-weight: 500;    
 }
 
-.site-address .contacts {
-    color: var(--color-main-text);
+.site-address {    
     font-style: normal;
+}
+
+.site-address .contacts {
+    color: var(--color-main-text);    
 }
 
 .site-nav .link:hover,
