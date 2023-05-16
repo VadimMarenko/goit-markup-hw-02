@@ -52,7 +52,7 @@ body {
     color: var(--accent-pressed-state);
 }
 
-.site-address .link {
+.site-address {
     color: var(--color-main-text);
     font-style: normal;
 }
@@ -97,11 +97,11 @@ body {
     background-color: var(--secondary-bg-color);
 }
 
-.team {
+.team-section {
     background-color: var(--color-bg-team);
 }
 
-.team-list {
+.section-team-list {
     background-color: var(--primary-bg-color);
 }
 
