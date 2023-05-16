@@ -47,14 +47,17 @@ body {
 
 .site-nav .link:hover,
 .site-nav .link:focus,
-.site-address .link:hover,
-.site-address .link:focus {
+.contacts.link.link:hover,
+.contacts.link.link:focus {
     color: var(--accent-pressed-state);
 }
 
 .site-address {
-    color: var(--color-main-text);
     font-style: normal;
+}
+
+.contacts.link {
+    color: var(--color-main-text);
 }
 
 .hero-section {
