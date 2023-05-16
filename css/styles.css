@@ -45,19 +45,20 @@ body {
     font-weight: 500;    
 }
 
-.site-address {    
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-pressed-state);
+}
+
+.site-address .link {
+    color: var(--color-main-text);
+    font-weight: 400;
     font-style: normal;
 }
 
-.site-address .contacts {
-    color: var(--color-main-text);    
-}
-
-.site-nav .link:hover,
-.site-nav .link:focus,
-.site-address .contacts:hover,
-.site-address .contacts:focus {
-    color: var(--accent-pressed-state);
+.address-list .link:hover,
+.address-list .link:focus {
+    color: var(--accent-pressed-state);    
 }
 
 .hero-section {
