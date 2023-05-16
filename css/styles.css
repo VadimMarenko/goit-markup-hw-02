@@ -45,6 +45,10 @@ body {
     font-weight: 500;    
 }
 
+.contacts.link {
+    color: var(--color-main-text);
+}
+
 .site-nav .link:hover,
 .site-nav .link:focus,
 .contacts.link:hover,
@@ -56,9 +60,6 @@ body {
     font-style: normal;
 }
 
-.contacts.link {
-    color: var(--color-main-text);
-}
 
 .hero-section {
     background-color: var(--color-primary-text);
